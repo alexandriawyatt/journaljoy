@@ -1,0 +1,255 @@
+/*----- Global Styles ------*/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: #333333;
+
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  font-family: 'Montserrat-Medium', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-fluid {
+  padding: 6% 15%;
+}
+
+
+/*----- Img -----*/
+
+.app-phone {
+  transform: rotate(25deg);
+  width: 375px;
+  position: absolute;
+  left: 57%;
+  bottom: 2%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 0 2%;
+}
+
+.blue-img-bg {
+  background-image: url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*----- Nav Bar -----*/
+
+.navbar {
+  margin: 0 0 1rem;
+  padding: 2% 15% 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light', sans-serif;
+  font-size: 1.25rem;
+}
+
+/*----- Buttons ------*/
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/*----- Feature Section ------*/
+
+.feature-icons {
+  color: #53BCC2;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #007296;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/*----- IDs ------*/
+
+#title {
+  color: white;
+  padding-bottom: 3%;
+}
+
+#features {
+  text-align: center;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+#testimonials {
+  background-color: #53BCC2;
+  color: white;
+  text-align: center;
+  padding: 5% 0;
+}
+
+#press {
+  background-color: #53BCC2;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#pricing {
+  text-align: center;
+}
+
+
+/*----- Carousel ------*/
+
+.carousel-item {
+  padding: 0 15%;
+}
+
+.testimonial-carousel {
+  padding: 3% 5%;
+}
+
+.testimonial-text {
+  color:white;
+  font-size: 2.5em;
+}
+
+/*----- Pricing ------*/
+
+.card {
+    margin: 3% 2% 3%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #969696;
+    width: 33%;
+}
+
+.card-body {
+  padding: 20px 50px 25px;
+}
+
+.card-price {
+  font-size: 2em;
+}
+
+.card-header {
+  color: white;
+  padding: 20px;
+  margin:0;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #969696;
+  font-size: 1.8rem;
+}
+
+.title-short-story {
+  background-color: #82CFDC;
+}
+
+.title-novella {
+  background-color: #53BCC2;
+}
+
+.title-trilogy {
+  background-color: #007296;
+}
+
+.sign-up-btn-dark {
+  background-color: #007296;
+}
+
+/*----- CTA ------*/
+
+#cta {
+  background-color: #007296;
+  text-align: center;
+}
+
+
+/*----- Footer ------*/
+
+#footer {
+  text-align: center;
+  padding: 1% 15% 0;
+}
+
+.social {
+  margin: 20px 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.social:hover {
+  color: #007296;
+}
+
+/*----- Media Queries ------*/
+
+@media (max-width: 991px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .app-phone {
+    transform: rotate(0deg);
+    width: 350px;
+    position: static;
+  }
+
+  .big-heading {
+    font-size: 2.5rem;
+    line-height: auto;
+  }
+
+  .card {
+      width: 100%;
+  }
+
+  .testimonial-text {
+    font-size: 1.75em;
+  }
+
+}
